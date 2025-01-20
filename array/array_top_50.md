@@ -26,3 +26,17 @@ Given an array of positive integers arr[] of size n, the task is to find second 
 ***Input:*** `arr[] = {19, -10, 20, 14, 2, 16, 10}`
 ***Output:*** `16`
 ***Explanation:*** Largest element is *20*, second largest element is *19* and third largest element is *16*.
+
+# 3. Maximum Product of a Triplet (subsequence of size 3) in Array
+
+***Input:*** `arr[] = [10, 3, 5, 6, 20]`
+***Output:*** `1200`  
+***Explanation:*** Multiplication of *10*, *6* and *20*.
+    
+***Input:*** `arr[] = [-10, -3, -5, -6, -20]`
+***Output:*** `-90`
+***Explanation:*** Multiplication of *-3*, *-5* and *-6*.
+
+***Input:*** `arr[] = [1, -4, 3, -6, 7, 0]`
+***Output:*** `168`
+***Explanation:*** Multiplication of *7*, *-6* and *-4*.
