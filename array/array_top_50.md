@@ -19,6 +19,8 @@ Given an array of positive integers arr[] of size n, the task is to find second 
 
 # 2. Third Largest Element in an Array of Distinct Elements
 
+**Examples:**
+
 ***Input:*** `arr[] = {1, 14, 2, 16, 10, 20}`
 ***Output:*** `14`  
 ***Explanation:*** Largest element is *20*, second largest element is *16* and third largest element is *14*
@@ -28,6 +30,8 @@ Given an array of positive integers arr[] of size n, the task is to find second 
 ***Explanation:*** Largest element is *20*, second largest element is *19* and third largest element is *16*.
 
 # 3. Maximum Product of a Triplet (subsequence of size 3) in Array
+
+**Examples:**
 
 ***Input:*** `arr[] = [10, 3, 5, 6, 20]`
 ***Output:*** `1200`  
@@ -40,3 +44,18 @@ Given an array of positive integers arr[] of size n, the task is to find second 
 ***Input:*** `arr[] = [1, -4, 3, -6, 7, 0]`
 ***Output:*** `168`
 ***Explanation:*** Multiplication of *7*, *-6* and *-4*.
+
+# 4. Maximum Consecutive One’s (or Zeros) in a Binary Array
+
+Given a binary array, find the count of a maximum number of consecutive 1s present in the array.
+
+**Examples:**
+
+***Input:*** `arr[] = {1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1}`
+***Output:*** `4`  
+***Explanation:*** The maximum number of consecutive *1’s* in the array is *4* from index *8-11*.
+    
+***Input:*** `arr[] = {0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1}`
+***Output:*** `1`
+***Explanation:*** The maximum number of consecutive *0’s* in the array is *1* from index *0-1*.
+
